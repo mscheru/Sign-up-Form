@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Norse Bold";
+  src:
+    url("fonts/Norse-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+.leaf {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+}
+
+.right {
+  background-color: rgb(253, 241, 241);
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40vw;
+  height: 100vh;
+  position: relative;
+}
+
+.odin {
+  display: flex;
+  background-color: rgba(28, 26, 26, 0.4);
+  width: 100%;
+  height: 12.5%;
+  position: absolute;
+  top: 28%;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vw;
+}
+
+.god {
+  height: 100%;
+}
+
+h1 {
+  font-family: "Norse Bold", serif;
+  color: white;
+}
+
+.form-inner-container {
+  background-color: white;
+  margin-top: 7%;
+  margin-bottom: 4%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-left: 4%;
+  box-shadow: 2px 2px 2px 1px rgba(52, 52, 52, 0.2);
+}
+
+button {
+  margin-left: 4%;
+  padding: 1% 4% 1% 4%;
+  border-radius: 5px;
+  border: none;
+  background-color: #596D48;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(52, 52, 52, 0.2);
+  font-weight: 600;
+}
+
+button:active {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 1px 0px rgba(52, 52, 52, 0.2);
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  width: 150px;
+  height: 25px;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 2%;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 3px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 1px 1px 5px rgba(52, 52, 52, 0.2);
+}
+
+.inputs {
+  padding-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 66%;
+}
+
+.inputs p {
+  width: 33%;
+  margin-right: 16%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: xx-small;
+  font-weight: 550;
+  color: rgb(92, 91, 91)
+}
+
+.log-in {
+  margin: 4%;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #596D48;
+}
+
+.par1, .par2 {
+  margin-left: 4%;
+  margin-right: 12%;
+}
+
+.par2 {
+  margin-top: 4%;
+}
+
+.pwd:invalid {
+  border: 1px solid red;
+}

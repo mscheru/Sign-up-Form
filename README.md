@@ -1,0 +1,1 @@
+In this project, I'll be practicing making and styling a form using html and css by creating a sign-up form. Enjoy :)
